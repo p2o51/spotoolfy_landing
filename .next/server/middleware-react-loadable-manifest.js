@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"pages/index.js -> ../src/components/SpotoolfyLanding/SpotoolfyLanding\":{\"id\":\"pages/index.js -> ../src/components/SpotoolfyLanding/SpotoolfyLanding\",\"files\":[\"static/chunks/_pages-dir-browser_src_components_SpotoolfyLanding_SpotoolfyLanding_jsx.js\"]}}"

@@ -1,0 +1,156 @@
+/* 子页面现代化样式 */
+
+/* 内容容器 */
+.subpage-container {
+  padding: 120px 80px 80px;
+  max-width: 1520px;
+  margin: 0 auto;
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 主标题 - 采用细体、更大字号、主题紫色 */
+.subpage-title {
+  font-size: 3.5rem; /* 更大字号 */
+  font-weight: 300; /* 细体 */
+  color: var(--primary-color); /* 紫色 */
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* 副标题 */
+.subpage-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+/* 内容卡片 - 添加轻微阴影和圆角 */
+.content-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 36px rgba(101, 85, 143, 0.1);
+}
+
+/* 列表样式 */
+.modern-list {
+  list-style: none;
+  padding-left: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.modern-list li {
+  position: relative;
+  padding: 0.75rem 0 0.75rem 2.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.modern-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  transform: translateY(-50%);
+}
+
+/* 编号列表 */
+.numbered-list {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.numbered-list li {
+  position: relative;
+  padding: 0.75rem 0 0.75rem 3rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.numbered-list li::before {
+  counter-increment: item;
+  content: counter(item);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  transform: translateY(-50%);
+}
+
+/* 段落样式 */
+.subpage-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+/* 水平分隔线 */
+.subpage-divider {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(101,85,143,0.1) 0%, rgba(101,85,143,0.4) 50%, rgba(101,85,143,0.1) 100%);
+  margin: 3rem 0;
+  border: none;
+}
+
+/* 移动响应式样式 */
+@media (max-width: 991px) {
+  .subpage-container {
+    padding: 100px 30px 50px;
+  }
+  
+  .subpage-title {
+    font-size: 2.5rem;
+  }
+  
+  .subpage-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .content-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .subpage-container {
+    padding: 90px 20px 40px;
+  }
+  
+  .subpage-title {
+    font-size: 2rem;
+  }
+  
+  .content-card {
+    padding: 1.25rem;
+  }
+} 
