@@ -1,0 +1,16 @@
+{
+  "title": "配置",
+  "spotify_premium_required": "您必須擁有 Spotify Premium。",
+  "get_started_text": "要開始使用，請註冊為 Spotify 開發者並訪問您的儀表板：",
+  "spotify_dashboard_alt": "Spotify 開發者儀表板",
+  "select_create_app": "選擇\"創建應用程序\"並填寫所需信息（您可以自定義其他字段）。",
+  "important_note": "重要提示：",
+  "bundle_id_note": "\"BUNDLE ID\"字段在初次提交時不可用。您需要先提交表單，然後編輯應用程序以添加它。",
+  "create_app_form_alt": "創建應用程序表單",
+  "enter_client_id": "接下來，將\"客戶端 ID\"輸入到 Spotoolfy 應用中的相應字段中。",
+  "spotify_app_settings_alt": "Spotify 應用程序設置",
+  "spotoolfy_app_input_alt": "Spotoolfy 應用輸入",
+  "use_following_values": "請使用以下值：",
+  "email_precaution": "作為預防措施，請考慮將您自己的電子郵件地址添加為用戶。",
+  "network_environment": "使用此應用程序時，請確保網絡環境正常。"
+} 

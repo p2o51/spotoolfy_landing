@@ -1,0 +1,16 @@
+{
+  "title": "構成",
+  "spotify_premium_required": "Spotify Premiumが必要です。",
+  "get_started_text": "始めるには、Spotify開発者として登録し、ダッシュボードにアクセスしてください：",
+  "spotify_dashboard_alt": "Spotify開発者ダッシュボード",
+  "select_create_app": "「アプリを作成」を選択し、必要な情報を入力します（他のフィールドはカスタマイズできます）。",
+  "important_note": "重要：",
+  "bundle_id_note": "「BUNDLE ID」フィールドは初回提出時には利用できません。最初にフォームを提出してから、アプリを編集して追加する必要があります。",
+  "create_app_form_alt": "アプリ作成フォーム",
+  "enter_client_id": "次に、「クライアントID」をSpotoolfyアプリの対応するフィールドに入力します。",
+  "spotify_app_settings_alt": "Spotifyアプリ設定",
+  "spotoolfy_app_input_alt": "Spotoolfyアプリ入力",
+  "use_following_values": "以下の値を使用してください：",
+  "email_precaution": "予防策として、自分のメールアドレスをユーザーとして追加することを検討してください。",
+  "network_environment": "このアプリを使用する際は、適切なネットワーク環境を確保してください。"
+} 

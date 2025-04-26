@@ -1,0 +1,16 @@
+{
+  "title": "Config",
+  "spotify_premium_required": "You must have Spotify Premium.",
+  "get_started_text": "To get started, register as a Spotify Developer and access your Dashboard at:",
+  "spotify_dashboard_alt": "Spotify Developer Dashboard",
+  "select_create_app": "Select \"Create App\" and fill in the required information (you can customize the other fields).",
+  "important_note": "Important:",
+  "bundle_id_note": "The \"BUNDLE ID\" field is not available during initial submission. You'll need to submit the form first and then edit the app to add it.",
+  "create_app_form_alt": "Create App Form",
+  "enter_client_id": "Next, enter the \"Client ID\" into the corresponding fields in your Spotoolfy App.",
+  "spotify_app_settings_alt": "Spotify App Settings",
+  "spotoolfy_app_input_alt": "Spotoolfy App Input",
+  "use_following_values": "Use the following values:",
+  "email_precaution": "As a precaution, consider adding your own email address as a user.",
+  "network_environment": "Ensure a proper network environment when using this app."
+} 

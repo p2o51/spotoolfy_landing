@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/install": "pages/install.js",
-  "/features": "pages/features.js",
+  "/config": "pages/config.js",
   "/": "pages/index.js"
 }
